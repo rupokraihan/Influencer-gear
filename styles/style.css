@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #aaaaaa18;
+}
+
+/* ---------
+nav bar
+------------ */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 65px 120px 0px 120px;
+}
+.nav-header{
+    font-weight: 700;
+    font-size: 24px;
+    color: #3A3A3A;
+}
+
+.nav-right-side li{
+    list-style: none;   
+}
+.nav-right-side ul li{
+    display: inline;
+    margin-right: 34px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* main image and text part */
+.camera-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    align-items: center;
+}
+
+.container{
+    padding-left: 120px;
+
+    
+
+}
+.container-header{
+    font-weight: 700;
+    font-size: 52px;
+    color: #3A3A3A;
+    margin-bottom: 20px;
+}
+.container-text{
+    font-weight: 600;
+    font-size: 16px;
+    color: #3A3A3A;
+    margin-bottom: 20px;
+
+}
+.container-image{
+    padding-right: 120px;
+    width: 440px;
+    height: 414px;
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+}
+.container-button{
+    width: 196px;
+    height: 44px;
+    background: #E02C6D;
+    border-radius: 41px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    border: 0;
+}
+
+/* sponsor section */
+.products-header{
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.sponsor{
+    width: 1199px;
+    height: 110px;
+    border: 1px solid #b6b4b462;
+    margin-left: 320px;
+    text-align: center;    
+}
+.sponsor-image{
+    margin-right: 30px;
+    margin-top: 32px;
+    margin-bottom: 36px;
+    height: 40px;   
+}
+
+/* popular section */
+.popular-products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    width: 1047px;
+    height: 1662px;
+    padding: 0 320px;
+}
+.all-products{
+    width: 329px;
+    height: 476px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 25px;
+
+
+}
+.product-image{
+    
+
+}
+.product-name{
+    font-weight: 500;
+    font-size: 28px;
+    color: #18191F;
+    margin-top: 18px;
+    margin-bottom: 10px;
+
+
+}
+.product-price{
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.87);
+    margin-bottom: 10px;
+
+
+}
+.product-rateing{
+    font-size: 10px;
+    margin-bottom: 4px;
+
+
+}
+.filled{
+    color: #FB8200;
+
+}
+
+.product-details{
+    font-weight: 700;
+    font-size: 14px;
+    color: #787885;
+    margin-bottom: 4px;
+
+}
+.more{
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(224, 44, 109, 0.87);
+    text-align: right;
+    margin-right: 380px;
+    margin-top: 50px;
+}
+
+/*-------------------
+spacial
+---------------------- */
+
+.spacial{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.spacial-image{
+    margin-left: 400px;
+
+}
+.spacial-container{
+    margin-right: 400px;
+}
+.spacial-header{
+    font-weight: 700;
+    font-size: 38px;
+    color: #0A0826;
+    margin-bottom: 20px;
+
+}
+.spacial-text{
+    font-weight: 700;
+    font-size: 16px;
+    color: #6C6C6C;
+    margin-bottom: 7px;
+
+
+}
+.spacial-button{
+    width: 155px;
+    height: 44px;
+    background: #E02C6D;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: 0;
+    margin-top: 30px;
+}
+
+/* footer section */
+.footer{
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+.footer-container{
+    text-align: center;
+    margin: 0 auto;
+
+    
+
+}
+.footer-title{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 4px;
+
+}
+.footer-text{
+    font-weight: 500;
+    font-size: 14px;
+    color: #D9DBE1;
+    margin-bottom: 4px;
+
+}
+.footer-logo{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 16px;
+    
+
+
+}
